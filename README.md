@@ -4,15 +4,6 @@ A quick &amp; dirty python module + methodology to compare real text to what gsp
 ------------------------------------------------------------
 METHODOLOGY
 
-Relying heavily on :
-
-http://blog.voicebase.com/how-to-compare-speech-engine-accuracy
-https://www.quora.com/How-do-I-measure-the-accuracy-of-speech-recognition
-https://medium.com/descript/comparing-the-accuracy-of-automatic-transcription-services-519fec134465
-https://cds.cern.ch/record/2304470/files/report.pdf
-
-Interesting field. Here is the TL;DR version of our v0 methodology.
-
 Two metrics - WER and SER
 
 WER = (S + D + I ) / N
@@ -39,3 +30,14 @@ STRUCTURE
 
 - takes two .json as inputs (a human and a automated) with list of sentences
 - gives back two results : WER and SER
+
+------------------------------------------------------------
+THANKS & litterature
+
+Relying heavily on :
+
+https://en.wikipedia.org/wiki/Word_error_rate
+http://blog.voicebase.com/how-to-compare-speech-engine-accuracy
+https://www.quora.com/How-do-I-measure-the-accuracy-of-speech-recognition
+https://medium.com/descript/comparing-the-accuracy-of-automatic-transcription-services-519fec134465
+https://cds.cern.ch/record/2304470/files/report.pdf
