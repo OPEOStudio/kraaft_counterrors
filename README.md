@@ -47,6 +47,8 @@ https://en.wikipedia.org/wiki/Word_error_rate
 
 http://blog.voicebase.com/how-to-compare-speech-engine-accuracy
 
+https://github.com/jcsilva/asr-benchmark (for brazilian portuguese, comparable to FR in terms of dataset)
+
 https://www.quora.com/How-do-I-measure-the-accuracy-of-speech-recognition
 
 https://medium.com/descript/comparing-the-accuracy-of-automatic-transcription-services-519fec134465
