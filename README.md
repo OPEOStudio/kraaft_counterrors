@@ -2,6 +2,13 @@
 A quick &amp; dirty python module + methodology to compare real text to what gspeech says
 
 ------------------------------------------------------------
+HOWTO
+
+pip install asr-evaluation
+
+or clone this
+
+------------------------------------------------------------
 METHODOLOGY
 
 Two metrics - WER and SER
@@ -37,7 +44,13 @@ THANKS & litterature
 Relying heavily on :
 
 https://en.wikipedia.org/wiki/Word_error_rate
+
 http://blog.voicebase.com/how-to-compare-speech-engine-accuracy
+
 https://www.quora.com/How-do-I-measure-the-accuracy-of-speech-recognition
+
 https://medium.com/descript/comparing-the-accuracy-of-automatic-transcription-services-519fec134465
+
 https://cds.cern.ch/record/2304470/files/report.pdf
+
+https://github.com/belambert/asr-evaluation, thanks to them !
